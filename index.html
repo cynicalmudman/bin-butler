@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#123c31">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Bin Butler">
+  <title>Bin Butler</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar"><div><p class="eyebrow">ELMBRIDGE COLLECTIONS</p><h1>Bin Butler</h1></div><div class="status-dot" aria-label="Schedule connected"></div></header>
+    <section class="hero" aria-live="polite">
+      <p class="hero-label">NEXT COLLECTION</p>
+      <div id="loading" class="loading">Consulting the council…</div>
+      <div id="next-collection" hidden>
+        <div class="date-row"><div><p id="relative-date" class="relative-date"></p><h2 id="collection-date"></h2></div><div id="bin-symbol" class="bin-symbol" aria-hidden="true"></div></div>
+        <div id="services" class="services"></div><p id="put-out" class="put-out"></p>
+      </div>
+      <div id="error" class="error" hidden>Schedule temporarily unavailable. Your WhatsApp reminder remains active.</div>
+    </section>
+    <section class="reminder-card"><div class="reminder-icon" aria-hidden="true">✓</div><div><h3>Evening reminder active</h3><p>WhatsApp will still remind you at 7 PM the night before.</p></div></section>
+    <section class="upcoming-section"><div class="section-heading"><h3>Coming up</h3><span id="updated"></span></div><div id="upcoming" class="upcoming-list"></div></section>
+    <footer>Schedule supplied by Elmbridge Borough Council</footer>
+  </main>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

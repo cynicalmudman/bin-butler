@@ -1,0 +1,13 @@
+{
+  "name": "Bin Butler",
+  "short_name": "Bin Butler",
+  "description": "Your Elmbridge bin collection schedule",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f4f1e8",
+  "theme_color": "#123c31",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

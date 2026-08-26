@@ -1,0 +1,54 @@
+﻿{
+  "generatedAt": "2026-08-26T11:42:48.406Z",
+  "timezone": "Europe/London",
+  "collections": [
+    {
+      "day": "Wednesday",
+      "date": "26/08/2026",
+      "services": [
+        "Refuse",
+        "Food waste",
+        "Garden waste (*)",
+        "Clothes, textiles and small electricals"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "02/09/2026",
+      "services": [
+        "Recycling",
+        "Food waste",
+        "Clothes, textiles and small electricals"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "09/09/2026",
+      "services": [
+        "Refuse",
+        "Food waste",
+        "Garden waste (*)",
+        "Clothes, textiles and small electricals"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "16/09/2026",
+      "services": [
+        "Recycling",
+        "Food waste",
+        "Clothes, textiles and small electricals"
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "23/09/2026",
+      "services": [
+        "Refuse",
+        "Food waste",
+        "Garden waste (*)",
+        "Clothes, textiles and small electricals"
+      ]
+    }
+  ]
+}
