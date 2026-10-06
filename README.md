@@ -14,7 +14,7 @@ The property reference is read only from the secret. It is never included in the
 
 The updater validates future dates before replacing the schedule. A failed refresh leaves the previous deployed app available; GitHub Actions records a failed run. Enable GitHub Actions failure notifications in your GitHub notification settings. Public repository scheduled workflows can be disabled after 60 days without repository activity; successful daily schedule commits keep this repository active.
 
-Garden waste applies only if subscribed. This app does not send WhatsApp messages or verify any external reminder service.
+Garden waste applies only if subscribed.
 
 ## Preview
 
